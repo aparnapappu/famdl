@@ -3,7 +3,7 @@ import { Row, RowState } from "./Row";
 import dictionary from "./dictionary.json";
 import { Clue, clue, describeClue, violation } from "./clue";
 import { Keyboard } from "./Keyboard";
-import targetList from "./targets.json";
+import targetList from "./newtargets.json";
 import {
   describeSeed,
   dictionarySet,
@@ -30,7 +30,7 @@ interface GameProps {
   keyboardLayout: string;
 }
 
-const targets = targetList.slice(0, targetList.indexOf("murky") + 1); // Words no rarer than this one
+const targets = targetList.slice(0, targetList.indexOf("vague")+1); // Words no rarer than this one
 const minLength = 4;
 const maxLength = 11;
 

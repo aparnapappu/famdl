@@ -43,5 +43,21 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "It's [Wordle](https://www.powerlanguage.co.uk/wordle/) but for the fam!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aparnapappu/famdl.git"
+  },
+  "keywords": [
+    "family",
+    "wordly"
+  ],
+  "author": "aparnapappu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aparnapappu/famdl/issues"
+  },
+  "devDependencies": {}
 }
